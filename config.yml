@@ -10,11 +10,7 @@ engines:
     uci_options:                          # Arbitrary UCI options passed to the engine.
       Threads: 4                          # Max CPU threads the engine can use.
       Hash: 2048                           # Max memory (in megabytes) the engine can allocate.
-<<<<<<< HEAD
       Move Overhead: 300                  # Increase if your bot flags games too often.
-=======
-      MoveOverhead: 300                  # Increase if your bot flags games too often.
->>>>>>> c2ba6dc2e301281083d440afe71bc988a0683bd1
     limits:                               # Limits that end the move calculation early.
 #     time: 5.0                           # Max time per move in seconds.
 #     depth: 26                           # Max depth per move.
